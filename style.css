@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #fff;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+a.button{
+    background-color: #3882f6;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.header, .skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-and-logo, .intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.skills h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.skills{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.skills p{
+    text-align: center;
+}
+
+.border-box{
+    border-radius: 15px;
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 200px;
+}
+
+.boxes{
+    display: flex;
+    gap: 35px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
+
+.button-section{
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 20px 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+
+.button-section a {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 50px;
+}
+
+.button-section div{
+    margin: auto;
+}
+
+.header{
+    padding: 20px 150px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.welcome{
+    text-align: left;
+}
+
+.welcome{
+    width: 400px;
+}
